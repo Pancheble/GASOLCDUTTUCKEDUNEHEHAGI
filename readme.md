@@ -84,9 +84,9 @@ sprintf(msg, "Current Val:%2d", count);
 lcd_send_string(msg);
 ```
 <br>첫번째 줄은 2행 1열로 커서를 옮기는 코드이다.
-<br>두번째 줄은 smg에 문자열을 넣어주는 코드이다.
-<br>count가 %2d에 들어가서 smg에 저장을 해주겠다. 라는 뜻이다.
-<br>세번째 줄은 문자열이 들어간 smg를 LCD에 출력하는거다.
+<br>두번째 줄은 msg에 문자열을 넣어주는 코드이다.
+<br>count가 %2d에 들어가서 msg에 저장을 해주겠다. 라는 뜻이다.
+<br>세번째 줄은 문자열이 들어간 msg를 LCD에 출력하는거다.
 ``` C
 HAL_Delay(1000);
 count ++;
