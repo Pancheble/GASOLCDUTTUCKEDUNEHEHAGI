@@ -8,7 +8,7 @@
 <br>input output을 해야하기 때문에
 <br>standard input output (stdio.h)을 해준다.
 
-# USER CODE BEGIN Includes
+# USER CODE BEGIN PD
 ``` C
 /* USER CODE BEGIN PD */
 #define SLAVE_ADDRESS_LCD 0x4e
